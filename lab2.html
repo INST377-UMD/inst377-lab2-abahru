@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Contact Me</title> 
+        <style>
+
+            body {
+                background-color:lightslategray;
+            }
+
+            input[type="submit"] {
+            background-color:darkslategray;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            }
+
+            input[type="submit"]:hover {
+                background-color:aquamarine;
+            }
+
+            .input-group {
+                margin-bottom: 15px;
+            }
+
+            label {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>INST377 - Lab 2 - Contact Me</h1>
+        <form name="contactForm" method="get" action="page_2.html">
+        <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
